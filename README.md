@@ -48,7 +48,7 @@ text = "apple and banana"
  (110, 97): 2}
 ```
 
-If we consider the vocab size of 259, the number of merges performed is (vocab_size - 256) 3. For each iteration, the max frequency pair is replaced with a new token.
+If we consider the vocab size of 259, the number of merges performed is 3 `(vocab_size - 256)`. For each iteration, the max frequency pair is replaced with a new token.
 
 ```bash
 # for 3 merges
