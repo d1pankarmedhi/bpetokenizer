@@ -1,10 +1,15 @@
-# Byte Pair Encoding Tokenizer
+<div align="center">
+<h1>Byte Pair Encoding Tokenizer</h1>
+<p>Minimal implementation of BPE tokenizer</p>
 
-Minimal implementation of BPE tokenizer
+![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=flat&logo=PyTorch&logoColor=white) ![Python](https://img.shields.io/badge/Python-blue.svg?style=flat&logo=python&logoColor=white)
 
-BPE tokenizer merges the most frequent adjacent pairs of characters or existing tokens into new token units. This helps in handling rare words, spelling variants and compond constructions. Language models, such as GPT-2, uses a BPE tokenizer to model all unicode strings, which allows evaluation on any language model benchmak regardless of processing or tokenization.
+</div>
 
-In the initial stage, the tokenizer assigns the vocabulary with 256 bytes tokens, considering every single possible byte value as its initial token. This means, the tokenizer can represent any sequence of bytes, such as, text, emojis or any other special characters or text from other language or even binary data. This ensures that there is no information loss due to unknown character encountered by the tokenizer.
+
+BPE tokenizer merges the most frequent adjacent pairs of characters or existing tokens into new token units. This helps in handling rare words, spelling variants and compound constructions. Language models, such as GPT-2, use a BPE tokenizer to model all Unicode strings, which allows evaluation on any language model benchmark regardless of processing or tokenisation.
+
+In the initial stage, the tokeniser assigns the vocabulary with 256 bytes tokens, considering every single possible byte value as its initial token. This means the tokenizer can represent any sequence of bytes, such as, text, emojis or any other special characters or text from other languages or even binary data. This ensures that there is no information loss due to an unknown character encountered by the tokenizer.
 
 ```bash
 # Initial vocabulary with 256 (0..255) bytes
