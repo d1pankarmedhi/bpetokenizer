@@ -2,7 +2,7 @@
 <h1>Byte Pair Encoding Tokenizer</h1>
 <p>Minimal implementation of BPE tokenizer</p>
 
-![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=flat&logo=PyTorch&logoColor=white) ![Python](https://img.shields.io/badge/Python-blue.svg?style=flat&logo=python&logoColor=white)
+![Python](https://img.shields.io/badge/Python-blue.svg?style=flat&logo=python&logoColor=white)
 
 </div>
 
