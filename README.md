@@ -9,6 +9,10 @@
 
 BPE tokenizer merges the most frequent adjacent pairs of characters or existing tokens into new token units. This helps in handling rare words, spelling variants and compound constructions. Language models, such as GPT-2, use a BPE tokenizer to model all Unicode strings, which allows evaluation on any language model benchmark regardless of processing or tokenisation.
 
+<div align="center">
+        <img src="https://github.com/user-attachments/assets/dbcad90f-0d78-4407-a48d-4973027fb9b2" width="300" />
+</div>
+
 In the initial stage, the tokeniser assigns the vocabulary with 256 bytes tokens, considering every single possible byte value as its initial token. This means the tokenizer can represent any sequence of bytes, such as, text, emojis or any other special characters or text from other languages or even binary data. This ensures that there is no information loss due to an unknown character encountered by the tokenizer.
 
 ```bash
